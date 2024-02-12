@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bfej7vierbqps"]
+
+[ext_resource type="Texture2D" uid="uid://7wl1j4xgfwk3" path="res://picture/fat cat.png" id="1_pae1y"]
+
+[node name="cat" type="Node2D"]
+
+[node name="FatCat" type="Sprite2D" parent="."]
+modulate = Color(0.215686, 0.760784, 0.54902, 1)
+position = Vector2(6, -121)
+scale = Vector2(1.64216, 1.33854)
+texture = ExtResource("1_pae1y")

@@ -1,0 +1,46 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtdvhc1dvwlck"]
+
+[ext_resource type="Texture2D" uid="uid://bvag32hvi63rc" path="res://picture/icon.svg" id="1_lpkev"]
+[ext_resource type="Texture2D" uid="uid://7wl1j4xgfwk3" path="res://picture/fat cat.png" id="2_fgdnt"]
+[ext_resource type="PackedScene" uid="uid://bfej7vierbqps" path="res://catpurple.tscn" id="3_cd67s"]
+
+[node name="Main scene" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+top_level = true
+position = Vector2(225, 122)
+scale = Vector2(1.28125, 1.03906)
+texture = ExtResource("1_lpkev")
+
+[node name="Icon2" type="Sprite2D" parent="."]
+top_level = true
+position = Vector2(533, 381)
+scale = Vector2(1.28125, 1.03906)
+texture = ExtResource("1_lpkev")
+
+[node name="Icon3" type="Sprite2D" parent="."]
+top_level = true
+position = Vector2(202, 361)
+scale = Vector2(1.28125, 1.03906)
+texture = ExtResource("1_lpkev")
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="red cat" type="Sprite2D" parent="Node2D"]
+modulate = Color(0.988235, 0.254902, 0.741176, 1)
+position = Vector2(526, 133)
+texture = ExtResource("2_fgdnt")
+
+[node name="FatCat2" type="Sprite2D" parent="Node2D"]
+position = Vector2(372, 536)
+texture = ExtResource("2_fgdnt")
+
+[node name="FatCat3" type="Sprite2D" parent="Node2D"]
+position = Vector2(973, 143)
+texture = ExtResource("2_fgdnt")
+
+[node name="FatCat4" type="Sprite2D" parent="Node2D"]
+position = Vector2(1058, 535)
+texture = ExtResource("2_fgdnt")
+
+[node name="cat" parent="Node2D" instance=ExtResource("3_cd67s")]
