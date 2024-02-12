@@ -6,6 +6,6 @@
 
 [node name="FatCat" type="Sprite2D" parent="."]
 modulate = Color(0.215686, 0.760784, 0.54902, 1)
-position = Vector2(6, -121)
-scale = Vector2(1.64216, 1.33854)
+position = Vector2(46.75, 240.25)
+scale = Vector2(1.30147, 0.658854)
 texture = ExtResource("1_pae1y")
